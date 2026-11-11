@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CodeSprint 2026 — a fictional student technology and innovation event.">
+  <title>CodeSprint 2026 | Build. Learn. Launch.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="announcement">
+    <span class="announcement-dot"></span>
+    A fictional student tech event concept · Registration preview
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="CodeSprint home">
+      <span class="brand-mark">&lt;/&gt;</span>
+      <span>code<span class="brand-accent">sprint</span><small>2026</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#tracks">Tracks</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-cta" href="#register">Join the event <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> THE STUDENT BUILD EXPERIENCE</div>
+        <h1>Ideas are easy.<br><span class="gradient-text">Building is</span><br>the adventure.</h1>
+        <p class="hero-description">A one-day fictional tech event for curious minds. Team up, experiment with new tools, and turn a small idea into something real.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#register">Save your spot <span>↗</span></a>
+          <a class="text-link" href="#about">Explore the event <span>↓</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>01</strong><span>Day of building</span></div>
+          <div><strong>03</strong><span>Creative tracks</span></div>
+          <div><strong>∞</strong><span>Ways to learn</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code illustration">
+        <div class="art-glow"></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-window">
+          <div class="window-top"><span></span><span></span><span></span><small>your_idea.py</small></div>
+          <div class="code-lines">
+            <p><i>01</i> <b>idea</b> = <em>"something_new"</em></p>
+            <p><i>02</i> <b>while</b> learning:</p>
+            <p><i>03</i> &nbsp;&nbsp;build(idea)</p>
+            <p><i>04</i> &nbsp;&nbsp;try_again()</p>
+            <p><i>05</i> <b>print</b>(<em>"Ship it!"</em>)</p>
+            <p class="cursor-line"><i>06</i> <span class="cursor"></span></p>
+          </div>
+          <div class="window-footer"><span class="live-dot"></span> READY TO CREATE <span>PYTHON 3</span></div>
+        </div>
+        <div class="floating-chip chip-top">✦ &nbsp; Think different</div>
+        <div class="floating-chip chip-bottom"><span>↗</span> Make it work. Make it yours.</div>
+        <div class="hero-star star-one">✳</div><div class="hero-star star-two">✦</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Event themes">
+      <div class="ticker-track">
+        <span>BUILD SOMETHING</span><b>✳</b><span>MEET YOUR PEOPLE</span><b>✳</b><span>LEARN BY DOING</span><b>✳</b><span>BUILD SOMETHING</span><b>✳</b><span>MEET YOUR PEOPLE</span><b>✳</b><span>LEARN BY DOING</span><b>✳</b>
+      </div>
+    </section>
+
+    <section class="section section-wrap" id="about">
+      <div class="section-heading">
+        <div class="eyebrow">01 / WHY CODESPRINT</div>
+        <h2>Less scrolling.<br><span class="muted-heading">More creating.</span></h2>
+      </div>
+      <div class="about-grid">
+        <p class="large-copy">CodeSprint is imagined as a welcoming space where students can explore technology without needing to be experts first.</p>
+        <div class="about-detail">
+          <p>Bring a question, a rough idea, or just your curiosity. Work with a team, learn from small experiments, and share what you discover.</p>
+          <div class="mini-stats">
+            <div><strong>01</strong><span>Show up curious</span></div>
+            <div><strong>02</strong><span>Build together</span></div>
+            <div><strong>03</strong><span>Share your work</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tracks-section" id="tracks">
+      <div class="section-wrap">
+        <div class="section-heading heading-row">
+          <div><div class="eyebrow">02 / PICK A DIRECTION</div><h2>Three ways to <span class="muted-heading">explore.</span></h2></div>
+          <p class="heading-note">You don't need all the answers.<br>Just choose a starting point.</p>
+        </div>
+        <div class="track-grid">
+          <article class="track-card track-purple">
+            <div class="track-number">TRACK 01</div><div class="track-icon">⌘</div>
+            <h3>Web & Product</h3>
+            <p>Shape a useful digital experience, from a first sketch to a working page.</p>
+            <div class="track-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <span class="card-arrow">↗</span>
+          </article>
+          <article class="track-card track-green">
+            <div class="track-number">TRACK 02</div><div class="track-icon">◈</div>
+            <h3>Data & AI</h3>
+            <p>Ask better questions, explore a dataset, and discover what the patterns say.</p>
+            <div class="track-tags"><span>Python</span><span>Data</span><span>AI</span></div>
+            <span class="card-arrow">↗</span>
+          </article>
+          <article class="track-card track-orange">
+            <div class="track-number">TRACK 03</div><div class="track-icon">⌁</div>
+            <h3>Open Innovation</h3>
+            <p>Find a small everyday problem and imagine a thoughtful way to solve it.</p>
+            <div class="track-tags"><span>Ideas</span><span>Design</span><span>Teamwork</span></div>
+            <span class="card-arrow">↗</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-wrap schedule-section" id="schedule">
+      <div class="section-heading">
+        <div class="eyebrow">03 / THE FLOW</div>
+        <h2>A day with <span class="muted-heading">purpose.</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item"><time>09:30 AM</time><div><h3>Welcome & warm-up</h3><p>Meet the community and find your team.</p></div><span class="timeline-index">01</span></div>
+        <div class="timeline-item"><time>10:30 AM</time><div><h3>Idea to first draft</h3><p>Choose a challenge and map out your approach.</p></div><span class="timeline-index">02</span></div>
+        <div class="timeline-item"><time>01:00 PM</time><div><h3>Build session</h3><p>Experiment, ask questions, and keep iterating.</p></div><span class="timeline-index">03</span></div>
+        <div class="timeline-item"><time>04:00 PM</time><div><h3>Demo & reflections</h3><p>Show what you made and share what you learned.</p></div><span class="timeline-index">04</span></div>
+      </div>
+      <p class="schedule-note">Illustrative schedule for this fictional event concept.</p>
+    </section>
+
+    <section class="register-section" id="register">
+      <div class="register-inner section-wrap">
+        <div>
+          <div class="eyebrow eyebrow-light">04 / YOUR NEXT STEP</div>
+          <h2>Curiosity looks<br>good on you.</h2>
+          <p>This is a demo registration form for the landing-page challenge. Submit it to see the interaction.</p>
+        </div>
+        <form class="register-form" id="registerForm">
+          <label for="fullName">Your name</label>
+          <input id="fullName" name="fullName" type="text" placeholder="e.g. Alex Morgan" required>
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <label for="interest">I'm curious about</label>
+          <select id="interest" name="interest" required>
+            <option value="">Choose a track</option>
+            <option>Web & Product</option><option>Data & AI</option><option>Open Innovation</option>
+          </select>
+          <button class="button button-light" type="submit">Send demo registration <span>↗</span></button>
+          <p class="form-message" id="formMessage" role="status" aria-live="polite"></p>
+          <small>Demo only: your details are not sent to a server or stored.</small>
+        </form>
+      </div>
+    </section>
+
+    <section class="section section-wrap faq-section" id="faq">
+      <div class="section-heading">
+        <div class="eyebrow">05 / GOOD TO KNOW</div>
+        <h2>Quick <span class="muted-heading">questions.</span></h2>
+      </div>
+      <div class="faq-list">
+        <details><summary>Do I need to be an expert coder?<span>+</span></summary><p>No. This concept is designed around curiosity, teamwork, and learning by doing.</p></details>
+        <details><summary>Can I come with an idea?<span>+</span></summary><p>Absolutely. A rough idea is a great starting point, and you can also join a team and explore together.</p></details>
+        <details><summary>Is this a real event registration?<span>+</span></summary><p>No. CodeSprint 2026 is a fictional event created as a web-development recruitment task. The form is only a front-end demo.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">&lt;/&gt;</span><span>code<span class="brand-accent">sprint</span><small>2026</small></span></a>
+    <p>Made with curiosity, coffee & a little bit of code.</p>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    <div class="footer-bottom"><span>© 2026 CodeSprint concept</span><span>BUILD. LEARN. LAUNCH.</span></div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
